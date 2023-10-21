@@ -1,0 +1,40 @@
+body {
+    background-image: url('bg.png'); 
+    background-size: cover; 
+    background-position: center; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    position: relative;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+    z-index: 2; 
+}
+
+.profile-picture {
+    position: absolute;
+    top: 0%;
+    right: 20px;
+    transform: translateY(15%);
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%; 
+    border: 2px solid #c1a2a2;
+    z-index: 3;
+}
+
+section {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    margin: 10px;
+    border-radius: 10px; 
+    z-index: 1;
+}
+
